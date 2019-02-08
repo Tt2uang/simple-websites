@@ -5,6 +5,8 @@ if (strpos($url, 'solution365') !== FALSE)
 	$site = 'solution365';
 elseif (strpos($url, 'light365') !== FALSE)
 	$site = 'light365';
+elseif (strpos($url, 'sang365') !== FALSE)
+	$site = 'light365';
 elseif (strpos($url, 'crystal365') !== FALSE)
 	$site = 'crystal365';
 elseif (strpos($url, 'solution365') !== FALSE)
@@ -27,8 +29,5 @@ else
 	</style>
 </head>
 <body>
-<?php
-	var_dump($site);
-?>
 </body>
 </html>
